@@ -1,0 +1,25 @@
+[
+    {
+        "table": "test",
+        "columns":{
+            "id": "INT AUTO_INCREMENT",
+            "name": "VARCHAR(255)"
+        },
+        "primary_key": "id"
+    },
+
+    {
+        "table": "paper",
+        "columns": {
+            "id": "INT AUTO_INCREMENT",
+            "title": "VARCHAR(255)",
+            "test_id": "INT"
+        },
+        "primary_key": "id",
+        "foreign_keys": [{
+            "table": "test",
+            "id": "test_id",
+            "primary_key": "id"
+        }]
+    }
+]

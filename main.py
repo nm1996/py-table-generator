@@ -1,5 +1,4 @@
-from maker import Maker
+from base.maker import Maker
 
 maker = Maker(input("Enter file location: \n"))
-
-maker.processData()
+maker.process_data()

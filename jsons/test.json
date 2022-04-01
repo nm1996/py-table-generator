@@ -21,5 +21,14 @@
             "id": "test_id",
             "primary_key": "id"
         }]
+    },
+
+    {
+        "table": "rock",
+        "columns": {
+            "id": "INT AUTO_INCREMENT",
+            "title": "VARCHAR(255)"
+        },
+        "primary_key": "id"
     }
 ]

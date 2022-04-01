@@ -47,3 +47,34 @@
 2022-04-01 13:40:49,301 INFO:log_namespace.Database Query executed..
 2022-04-01 13:40:49,301 INFO:log_namespace.Database Connection closing..
 2022-04-01 13:40:49,301 INFO:log_namespace.Database Connection closed..
+2022-04-01 17:02:33,372 WARNING:log_namespace.Database db_type: oracle is not supported
+2022-04-01 17:09:13,451 INFO:log_namespace.Database Attempting connect to database..
+2022-04-01 17:09:13,464 INFO:log_namespace.Database Connected to database..
+2022-04-01 17:09:13,466 INFO:log_namespace.Database Executing query..
+2022-04-01 17:09:13,467 INFO:log_namespace.Database Query executed..
+2022-04-01 17:09:13,467 INFO:log_namespace.Database Executing query..
+2022-04-01 17:09:13,468 INFO:log_namespace.Database Query executed..
+2022-04-01 17:09:13,468 INFO:log_namespace.Database Executing query..
+2022-04-01 17:09:13,469 INFO:log_namespace.Database Query executed..
+2022-04-01 17:09:13,469 INFO:log_namespace.Database Connection closing..
+2022-04-01 17:09:13,469 INFO:log_namespace.Database Connection closed..
+2022-04-01 17:29:10,727 INFO:log_namespace.Database Attempting connect to database
+2022-04-01 17:29:10,741 INFO:log_namespace.Database Connected to database
+2022-04-01 17:29:10,742 INFO:log_namespace.Database Executing query
+2022-04-01 17:29:10,743 INFO:log_namespace.Database Query executed
+2022-04-01 17:29:10,743 INFO:log_namespace.Database Executing query
+2022-04-01 17:29:10,744 INFO:log_namespace.Database Query executed
+2022-04-01 17:29:10,744 INFO:log_namespace.Database Executing query
+2022-04-01 17:29:10,745 INFO:log_namespace.Database Query executed
+2022-04-01 17:29:10,745 INFO:log_namespace.Database Connection closing
+2022-04-01 17:29:10,745 INFO:log_namespace.Database Connection closed
+2022-04-01 17:29:54,168 INFO:log_namespace.Database Attempting connect to database
+2022-04-01 17:29:54,181 INFO:log_namespace.Database Connected to database
+2022-04-01 17:29:54,182 INFO:log_namespace.Database Executing query
+2022-04-01 17:29:54,184 INFO:log_namespace.Database Query executed
+2022-04-01 17:29:54,184 INFO:log_namespace.Database Executing query
+2022-04-01 17:29:54,185 INFO:log_namespace.Database Query executed
+2022-04-01 17:29:54,185 INFO:log_namespace.Database Executing query
+2022-04-01 17:29:54,185 INFO:log_namespace.Database Query executed
+2022-04-01 17:29:54,185 INFO:log_namespace.Database Connection closing
+2022-04-01 17:29:54,185 INFO:log_namespace.Database Connection closed

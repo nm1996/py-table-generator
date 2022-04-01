@@ -1,0 +1,9 @@
+2022-04-01 17:09:13,465 INFO:log_namespace.JsonReader Loading json file..
+2022-04-01 17:09:13,465 INFO:log_namespace.JsonReader Reading json file..
+2022-04-01 17:09:13,465 INFO:log_namespace.JsonReader Closing json file..
+2022-04-01 17:29:10,742 INFO:log_namespace.JsonReader Loading json file
+2022-04-01 17:29:10,742 INFO:log_namespace.JsonReader Reading json file
+2022-04-01 17:29:10,742 INFO:log_namespace.JsonReader Closing json file
+2022-04-01 17:29:54,182 INFO:log_namespace.JsonReader Loading json file
+2022-04-01 17:29:54,182 INFO:log_namespace.JsonReader Reading json file
+2022-04-01 17:29:54,182 INFO:log_namespace.JsonReader Closing json file

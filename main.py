@@ -1,4 +1,3 @@
-from base.maker import Maker
+from base.format_switcher import FormatSwitcher
 
-maker = Maker(input("Enter file location: \n"))
-maker.process_data()
+maker = FormatSwitcher(input("Enter file location: \n"))

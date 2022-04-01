@@ -1,5 +1,5 @@
 from base.database import Database
-from base.reader import Reader
+from base.json_reader import JsonReader
 from base.operations import Operations
 from utils.logger import Logger
 
@@ -31,17 +31,17 @@ def validate_data(row):
     return is_valid
 
 
-class Maker:
+class JsonMaker:
 
     def __init__(self, path):
         self.logger = Logger(self.__class__.__name__).get()
         self.db = Database()
-        self.reader = Reader(path)
+        self.reader = JsonReader(path)
         self.operation = Operations()
 
     def get_data_from_json(self):
-        print("Collecting data from json..")
-        self.logger.info("Collecting data from json..")
+        print("Collecting data from json")
+        self.logger.info("Collecting data from json")
         return self.reader.read()
 
     def process_row(self, row):
@@ -59,22 +59,22 @@ class Maker:
         if isinstance(data, dict):
             is_data_valid = validate_data(data)
             if is_data_valid:
-                print("Processing data..")
-                self.logger.info("Processing data..")
+                print("Processing data")
+                self.logger.info("Processing data")
                 self.process_row(data)
             else:
-                print("Records not valid..")
-                self.logger.warn("Records not valid..")
+                print("Records not valid")
+                self.logger.warn("Records not valid")
 
         if isinstance(data, list):
             for item in data:
                 is_data_valid = validate_data(item)
                 if is_data_valid:
-                    print("Processing data..")
-                    self.logger.info("Processing data..")
+                    print("Processing data")
+                    self.logger.info("Processing data")
                     self.process_row(item)
                 else:
-                    print("Records not valid..")
-                    self.logger.warn("Records not valid..")
+                    print("Records not valid")
+                    self.logger.warn("Records not valid")
 
         self.db.commit_n_close()
